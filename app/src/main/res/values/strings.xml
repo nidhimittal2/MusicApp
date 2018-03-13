@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="title_activity_my_library">MyLibraryActivity</string>
+    <string name="title_activity_browse">BrowseActivity</string>
+    <string name="title_activity_buy_music">BuyMusicActivity</string>
+    <string name="title_activity_albums">AlbumsActivity</string>
+    <string name="title_activity_artists">ArtistsActivity</string>
+    <string name="title_activity_genres">GenresActivity</string>
+    <string name="title_activity_playlists">PlaylistsActivity</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+</resources>

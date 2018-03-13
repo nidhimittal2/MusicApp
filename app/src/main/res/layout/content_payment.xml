@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nidhimittal.musicapp.PaymentActivity"
+    tools:showIn="@layout/activity_payment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Proceed for Payment:
+        Here, user would pay to access paid music.
+  An external API like Paytm can be used to accept payments.
+  Paytm is the most popular payment method used in India.
+To add Paytm payment first step is to generate checksum on our server
+and then accept payment with paytm SDK."
+        android:textSize="15sp" />
+
+
+</android.support.constraint.ConstraintLayout>

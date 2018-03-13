@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nidhimittal.musicapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyLibraryActivity"
+            android:label="My Library"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrowseActivity"
+            android:label="Browse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BuyMusicActivity"
+            android:label="Buy Music"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="Albums"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="Artists"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GenresActivity"
+            android:label="Genres"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlaylistsActivity"
+            android:label="Playlists"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="Proceed for Payment"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
